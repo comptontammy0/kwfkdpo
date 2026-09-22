@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：入门实践：项目配置文件多环境管理方案
+简介：golang grpc 负载均衡客户端实现，grpc 客户端负载均衡，轮询随机权重，分发请求到多个服务实例。
+ | 原文链接：http://book.lmepts.asia/blog/6501795.sHtMl
+
+原标题：golang redis 缓存穿透解决方案
+简介：nodejs 内存溢出问题排查修复，Node.js 程序 OOM 排查流程，定位内存泄露，调整内存限制修复崩溃。
+ | 原文链接：http://book.lmepts.asia/blog/0939248.sHtMl
+
+原标题：golang 分布式上下文传递方案
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://book.lmepts.asia/blog/2049950.sHtMl
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：golang sync.RWMutex 读写锁使用场景，读多写少场景读写锁，读共享写互斥，提升并发性能。
+ | 原文链接：http://book.lmepts.asia/blog/2949253.sHtMl
+
+原标题：前后端交互跨域问题完整处理
+简介：golang hertz 性能优化参数调优，hertz 连接池、缓冲区参数调优，最大化接口吞吐性能。
+ | 原文链接：http://book.lmepts.asia/blog/3048104.sHtMl
+
+原标题：避坑：CookieSecure属性造成测试环境登录失败
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：http://book.lmepts.asia/blog/1055918.sHtMl
+
+原标题：golang csv 读写批量数据处理
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：http://book.lmepts.asia/blog/7201415.sHtMl
+
+原标题：文件监控服务自动重启开发
+简介：golang 文件句柄耗尽排查处理，统计进程打开文件句柄，找到未关闭文件，修复句柄泄漏问题。
+ | 原文链接：http://book.lmepts.asia/blog/0994807.sHtMl
+
+原标题：Hands‑on：简易消息推送服务开发实践
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://book.lmepts.asia/blog/6361460.sHtMl
+
+原标题：golang 系统设计压测工具 wrk 使用实操
+简介：golang 集成测试测试数据库回滚，集成测试结束自动回滚数据库，不污染测试环境数据。
+ | 原文链接：http://book.lmepts.asia/blog/5827172.sHtMl
+
+原标题：golang 大文件 http 下载服务
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://book.lmepts.asia/blog/4046254.sHtMl
+
+原标题：Troubleshoot：磁盘inode耗尽，无法新建文件
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：http://book.lmepts.asia/blog/5168181.sHtMl
+
+原标题：前端虚拟列表大数据渲染优化
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：http://book.lmepts.asia/blog/7590704.sHtMl
+
+原标题：Hands‑on：简易压缩中间件gzip实现实践
+简介：golang defer 执行顺序与坑点，defer 后进先出，循环内部 defer 陷阱，资源释放正确写法。
+ | 原文链接：http://book.lmepts.asia/blog/0424038.sHtMl
+
+原标题：排错：DockerCompose依赖顺序启动顺序坑
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：http://book.lmepts.asia/blog/4257460.sHtMl
+
+原标题：Practice：实现多级缓存本地缓存+Redis实践
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：http://book.lmepts.asia/blog/0423626.sHtMl
+
+原标题：golang 数据库慢查询监控实现
+简介：golang 日志输出 stdout 标准输出规范，容器环境日志输出到 stdout，由容器平台统一采集日志文件。
+ | 原文链接：http://book.lmepts.asia/blog/3948061.sHtMl
+
+原标题：Practice：手写简易限流组件，计数器、令牌桶实现
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：http://book.lmepts.asia/blog/2827071.sHtMl
+
+原标题：golang 系统设计大盘看板设计最佳实践汇总
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：http://book.lmepts.asia/blog/1937372.sHtMl
+
+原标题：开发测试生产多环境配置区分
+简介：Nginx 静态代理负载均衡全套配置，一套 Nginx 配置示例，覆盖静态资源、反向代理、负载均衡场景。
+ | 原文链接：http://book.lmepts.asia/blog/5267371.sHtMl
+
+原标题：开发复盘：实现定时任务调度服务支持动态任务
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://book.lmepts.asia/blog/8591720.sHtMl
+
+原标题：Debug：DNS缓存TTL设置不当服务切换无法生效
+简介：golang go‑zero 框架项目快速搭建，go‑zero 脚手架生成微服务项目，api rpc 服务快速开发。
+ | 原文链接：http://book.lmepts.asia/blog/9601708.sHtMl
+
+原标题：Debug：Websocket频繁断开重连根因分析
+简介：golang 数据库连接耗尽排查思路，监控连接池状态，定位连接未归还，解决连接耗尽报错。
+ | 原文链接：http://book.lmepts.asia/blog/1535841.sHtMl
+
+原标题：Architecture：文件处理服务架构大文件内存规避
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://book.lmepts.asia/blog/2957360.sHtMl
+
+原标题：Architecture：文件处理服务架构大文件内存规避
+简介：golang yaml 解析配置加载实操，Go 解析 YAML 配置文件，读取配置参数，驱动业务运行。
+ | 原文链接：http://book.lmepts.asia/blog/5291715.sHtMl
+
+原标题：性能复盘：内存泄漏定位，内存持续上涨优化
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：http://book.lmepts.asia/blog/4056282.sHtMl
+
+原标题：golang 系统设计测试覆盖率目标合理设定思路
+简介：css 动画性能优化 GPU 加速，优化 CSS 动画，使用 GPU 加速属性，避免动画过程页面卡顿掉帧。
+ | 原文链接：http://book.lmepts.asia/blog/4150372.sHtMl
+
+原标题：入门实践：简单批量处理脚本编写
+简介：GC 垃圾回收优化降低 CPU 占用，调整 GC 参数，优化对象创建销毁，降低垃圾回收带来 CPU 开销。
+ | 原文链接：http://book.lmepts.asia/blog/3149149.sHtMl
+
+原标题：一次数据库死锁现场分析与解决方案记录
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://book.lmepts.asia/blog/9602705.sHtMl
+
+原标题：设计思考：系统幂等性整体架构层面保障
+简介：golang 子进程超时杀死防止挂住，context 控制子进程超时，超时强制杀掉子进程，避免子进程僵尸。
+ | 原文链接：http://book.lmepts.asia/blog/0939393.sHtMl
+
+原标题：golang 系统设计第三方接口调用封装思路
+简介：golang gorm 事务手动回滚提交，手动控制事务流程，业务异常主动回滚，保障数据操作原子性。
+ | 原文链接：http://book.lmepts.asia/blog/4150394.sHtMl
+
+原标题：Practice：实现业务唯一流水号生成组件实践
+简介：批量异步处理系统业务落地，构建批量异步处理系统，把耗时业务异步化，提升接口响应速度。
+ | 原文链接：http://book.lmepts.asia/blog/1827917.sHtMl
+
+原标题：开发复盘：大JSON解析分批处理避免内存溢出
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://book.lmepts.asia/blog/8591304.sHtMl
+
+原标题：项目实践：幂等表实现接口幂等业务实践
+简介：golang go 整洁架构代码组织实践，整洁架构依赖向内，解耦业务逻辑与外部基础设施。
+ | 原文链接：http://book.lmepts.asia/blog/5267472.sHtMl
+
+原标题：golang k8s 网络策略网络隔离设置
+简介：golang 服务限流熔断降级监控完整实践，微服务防护体系，限流熔断降级指标监控告警整套落地。
+ | 原文链接：http://book.lmepts.asia/blog/4290394.sHtMl
+
+原标题：踩坑：重试逻辑未做幂等，重复生成业务数据
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：http://book.lmepts.asia/blog/2046350.sHtMl
+
+原标题：golang 系统设计 docker compose 本地开发环境搭建
+简介：golang go get 升级降级依赖版本，go get 指定版本升级降级依赖包，管理第三方库版本。
+ | 原文链接：http://book.lmepts.asia/blog/8383793.sHtMl
+
+原标题：后端登录鉴权模块完整开发
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：http://book.lmepts.asia/blog/2949299.sHtMl
+
+原标题：文件描述符优化进程卡死修复
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：http://book.lmepts.asia/blog/9224137.sHtMl
+
+原标题：golang gorm ORM 数据库操作
+简介：前后端交互跨域问题完整处理，讲解跨域产生原理，列举多种解决方案，适配开发、生产不同环境的跨域处理。
+ | 原文链接：http://book.lmepts.asia/blog/1828020.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：HelloShell：入门常用shell脚本编写
+简介：golang rabbitmq go 客户端生产消费，streadway/amqp 实现 rabbitmq 生产者消费者，队列交换机绑定。
+ | 原文链接：http://book.lmepts.asia/blog/6269582.sHtMl
+
+原标题：golang redis 布隆过滤器安装使用
+简介：环境变量不生效问题修复，排查环境变量加载顺序、作用域问题，修复环境变量读取不到的异常。
+ | 原文链接：http://book.lmepts.asia/blog/0746360.sHtMl
+
+原标题：golang 系统设计定时任务动态启停配置方案
+简介：golang prometheus client 业务埋点实操，prometheus client‑go 业务埋点，计数器、仪表盘、直方图指标开发。
+ | 原文链接：http://book.lmepts.asia/blog/9616931.sHtMl
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：http://book.lmepts.asia/blog/0712919.sHtMl
+
+原标题：大文件导出内存溢出防护
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：http://book.lmepts.asia/blog/7949033.sHtMl
+
+原标题：golang 系统设计 tcp keepalive 参数调优实践
+简介：业务幂等键设计防重复逻辑，讲解幂等键设计思路，选择合适业务字段作为幂等标识，实现可靠防重复。
+ | 原文链接：http://book.lmepts.asia/blog/1723816.sHtMl
+
+原标题：golang 系统设计集成测试数据库回滚重置方案
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：http://book.lmepts.asia/blog/9180593.sHtMl
+
+原标题：golang k8s cronjob 定时任务配置
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://book.lmepts.asia/blog/0047370.sHtMl
+
+原标题：golang 系统设计 saga 事务补偿模式实现思路
+简介：Git 混乱提交历史清理方法，针对杂乱的提交记录，使用 Git 工具整理，清理无效提交，还原整洁版本历史。
+ | 原文链接：http://book.lmepts.asia/blog/3757582.sHtMl
+
+原标题：全局时间标准统一逻辑错乱修复
+简介：golang 结构体零值可用性原则，go 结构体尽量做到零值可用，不用初始化直接使用提升易用性。
+ | 原文链接：http://book.lmepts.asia/blog/6261474.sHtMl
+
+原标题：设计思考：防雪崩，系统过载保护架构设计
+简介：golang 日志输出 stdout 标准输出规范，容器环境日志输出到 stdout，由容器平台统一采集日志文件。
+ | 原文链接：http://book.lmepts.asia/blog/9580292.sHtMl
+
+原标题：golang 系统设计 tcp keepalive 参数调优实践
+简介：golang oss 签名 URL 临时访问，生成 oss 临时签名 url，限时访问私有文件，保障文件访问安全可控。
+ | 原文链接：http://book.lmepts.asia/blog/7494696.sHtMl
+
+原标题：方案对比：轮询长轮询WebSocket推送架构选型
+简介：golang go time 时区数据库内置，go 内置时区数据库，不用系统时区文件，容器时区不依赖系统。
+ | 原文链接：http://book.lmepts.asia/blog/2935148.sHtMl
+
+原标题：调优方案：MySQL缓冲池参数性能调优实践
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：http://book.lmepts.asia/blog/1846353.sHtMl
+
+原标题：golang 系统设计消息堆积排查扩容完整步骤
+简介：golang md5 sha 加密工具实现，实现 MD5、SHA 哈希工具，做数据摘要，用于签名校验场景。
+ | 原文链接：http://book.lmepts.asia/blog/1826178.sHtMl
+
+原标题：集成测试业务流程编写示例
+简介：golang go 优雅处理信号丢失场景，处理信号丢失、信号被忽略，保障程序可以正常接收终止信号。
+ | 原文链接：http://book.lmepts.asia/blog/9616961.sHtMl
+
+原标题：从零搭建简单定时任务demo
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：http://book.lmepts.asia/blog/4279582.sHtMl
+
+原标题：踩坑：Docker容器内时区不一致引发的时间BUG
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://book.lmepts.asia/blog/8580924.sHtMl
+
+原标题：golang 系统设计批量处理优化业务性能
+简介：golang go 模块迁移从 GOPATH 到 GoMod，老项目从 GOPATH 迁移 go mod，解决依赖管理混乱问题。
+ | 原文链接：http://book.lmepts.asia/blog/5260339.sHtMl
+
+原标题：Hands‑on：编写自定义Git钩子实现代码提交校验
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：http://book.lmepts.asia/blog/3949292.sHtMl
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：跨平台换行符统一异常修复，统一代码文件换行符，解决不同操作系统换行符不一致带来脚本执行异常。
+ | 原文链接：http://book.lmepts.asia/blog/8080351.sHtMl
+
+原标题：Debug：并发场景下数据覆盖丢失问题定位
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：http://book.lmepts.asia/blog/4369470.sHtMl
+
+原标题：CDN 缓存刷新获取最新静态资源
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：http://book.lmepts.asia/blog/6375792.sHtMl
+
+原标题：实战项目：前端资源打包体积优化完整实操
+简介：golang go 服务压测前后性能对比，压测记录 QPS 延迟，优化前后对比，验证优化效果。
+ | 原文链接：http://book.lmepts.asia/blog/6346273.sHtMl
+
+原标题：实践：分布式事务本地模拟验证实践
+简介：并发数据覆盖加锁安全处理，多线程并发修改同一数据，增加锁机制，防止并发覆盖丢失更新数据。
+ | 原文链接：http://book.lmepts.asia/blog/1584783.sHtMl
+
+原标题：golang 配置文件多环境加载
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：http://book.lmepts.asia/blog/5081906.sHtMl
+
+原标题：nestjs 全局返回格式统一处理
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：http://book.lmepts.asia/blog/4858939.sHtMl
+
+原标题：零基础理解依赖管理与包管理器
+简介：golang grpc 双向流双向通信开发，grpc 双向流，服务端客户端持续互发消息，长连接流式业务场景。
+ | 原文链接：http://book.lmepts.asia/blog/3627279.sHtMl
+
+原标题：golang k8s pod 优雅关闭流程讲解
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：http://book.lmepts.asia/blog/9302614.sHtMl
+
+原标题：安全笔记：文件下载接口路径校验安全
+简介：golang go toml 配置注释保留，toml 解析保留注释，修改配置后写回保留原有注释。
+ | 原文链接：http://book.lmepts.asia/blog/6070795.sHtMl
+
+原标题：实战：Redis过期回调实现业务事件通知实践
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://book.lmepts.asia/blog/9415139.sHtMl
+
+原标题：新手向：看懂项目README的正确阅读姿势
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：http://book.lmepts.asia/blog/9354895.sHtMl
+
+原标题：golang 系统设计指标聚合计算存储选型对比
+简介：golang 大内存分配 GC 抖动规避，避免瞬时大量对象创建，分批处理，防止 GC 抖动业务抖动。
+ | 原文链接：http://book.lmepts.asia/blog/4815130.sHtMl
+
+原标题：Practice：模拟主从延迟业务兼容方案实践
+简介：golang csv 百万级数据导入数据库，流式读取 csv 分批写入数据库，避免一次性加载全部数据。
+ | 原文链接：http://book.lmepts.asia/blog/4280301.sHtMl
+
+原标题：golang 数据库连接泄露排查
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://book.lmepts.asia/blog/3250783.sHtMl
+
+原标题：golang 系统设计分布式锁超时业务防死锁处理
+简介：golang 配置中心 apollo go 客户端，apollo go sdk 读取配置，配置变更自动热更新无需重启服务。
+ | 原文链接：http://book.lmepts.asia/blog/9683782.sHtMl
+
+原标题：实践：API错误统一捕获与告警通知实践
+简介：golang 静态文件服务搭建教程，Go 搭建静态文件服务，托管静态资源，实现文件直接对外访问。
+ | 原文链接：http://book.lmepts.asia/blog/3906058.sHtMl
+
+原标题：避坑：CookieSecure属性造成测试环境登录失败
+简介：图片上传预览格式大小处理，实现图片上传接口，校验文件格式、大小，完成上传后预览处理。
+ | 原文链接：http://book.lmepts.asia/blog/8492696.sHtMl
+
+原标题：golang 系统设计容量评估简单方法论
+简介：rebase 操作防止代码丢失，讲解 rebase 风险点，操作前做好备份，规避错误操作造成代码提交丢失。
+ | 原文链接：http://book.lmepts.asia/blog/5350341.sHtMl
+
+原标题：开发记录：敏感数据加密存储解密业务实践
+简介：接口压测定位系统性能瓶颈，使用压测工具对接口施压，观察指标，定位系统性能瓶颈点。
+ | 原文链接：http://book.lmepts.asia/blog/1616724.sHtMl
+
+三、实战开发｜Practice
+原标题：golang 系统设计压测指标 qps rt 错误率讲解
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：http://book.lmepts.asia/blog/1697948.sHtMl
+
+原标题：实践：实现Redis分布式锁完整可运行代码
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://book.lmepts.asia/blog/7280784.sHtMl
+
+原标题：OAuth2 第三方登录服务搭建
+简介：golang 内存缓存简单实现方案，Go 实现进程内简易内存缓存，本地缓存热点数据，减少远程调用。
+ | 原文链接：http://book.lmepts.asia/blog/6030440.sHtMl
+
+原标题：golang 系统设计故障应急响应完整流程梳理
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：http://book.lmepts.asia/blog/4379403.sHtMl
+
+原标题：Practice：实现批量任务失败断点续跑实践
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://book.lmepts.asia/blog/7291804.sHtMl
+
+原标题：vue pinia 状态管理实战教程
+简介：golang docker compose 开发环境 go 服务，docker compose 编排 go 服务与中间件，本地一键拉起整套开发环境。
+ | 原文链接：http://book.lmepts.asia/blog/0583020.sHtMl
+
+原标题：开发复盘：分布式会话共享多种方案实践
+简介：golang go test 单元测试命令参数详解，gotest 参数覆盖率，指定测试用例，跳过测试，单元测试命令实操。
+ | 原文链接：http://book.lmepts.asia/blog/7278373.sHtMl
+
+原标题：部署实践：服务器时间同步chrony配置
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://book.lmepts.asia/blog/5816727.sHtMl
+
+原标题：快速入门ORM，实现简单数据库增删改查
+简介：golang grpc 负载均衡客户端实现，grpc 客户端负载均衡，轮询随机权重，分发请求到多个服务实例。
+ | 原文链接：http://book.lmepts.asia/blog/5269481.sHtMl
+
+原标题：golang 系统设计缓存更新策略 cache aside 讲解
+简介：golang tls 证书加载配置 https 服务，加载证书密钥，搭建 golang https 服务，配置 tls 版本安全策略。
+ | 原文链接：http://book.lmepts.asia/blog/2880359.sHtMl
+
+原标题：Troubleshoot：MySQL字符集utf8非utf8mb4emoji报错
+简介：前端下载导出文件功能实现，前端实现文件流下载导出，处理异常，适配浏览器不同下载行为。
+ | 原文链接：http://book.lmepts.asia/blog/7158114.sHtMl
+
+原标题：新手指南：虚拟机WSL开发环境入门配置
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：http://book.lmepts.asia/blog/3024681.sHtMl
+
+原标题：golang 系统设计日志规范结构化日志落地
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：http://book.lmepts.asia/blog/4140364.sHtMl
+
+原标题：golang 日志脱敏敏感字段过滤
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：http://book.lmepts.asia/blog/4706849.sHtMl
+
+原标题：golang 优雅停机服务关闭实现
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：http://book.lmepts.asia/blog/7505847.sHtMl
+
+原标题：Hands‑on：手写简单消息队列理解存储模型
+简介：golang errors.Is errors.As 错误判断，判断是否为指定错误类型，提取自定义错误信息，错误处理进阶。
+ | 原文链接：http://book.lmepts.asia/blog/7483797.sHtMl
+
+原标题：提交第一个开源 PR 完整流程
+简介：静态站点自动部署发布方案，配置流水线，代码更新自动构建静态站点并且部署上线，简化发布。
+ | 原文链接：http://book.lmepts.asia/blog/9501407.sHtMl
+
+原标题：TLS 版本兼容 HTTPS 握手失败
+简介：golang 时间时区处理避坑指南，Go 时间时区常见坑，时区转换，时间比较，规避时间逻辑错误。
+ | 原文链接：http://book.lmepts.asia/blog/2161474.sHtMl
+
+原标题：架构复盘：数据库索引架构设计原则与边界
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：http://book.lmepts.asia/blog/7079693.sHtMl
+
+原标题：性能复盘：锁粒度太大，拆分细粒度锁优化
+简介：接口签名校验防篡改实现，实现请求签名验签逻辑，校验请求参数未被篡改，提升接口调用安全性。
+ | 原文链接：http://book.lmepts.asia/blog/8702848.sHtMl
+
+原标题：golang 系统设计 traceId 全链路透传完整方案
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://book.lmepts.asia/blog/6381698.sHtMl
+
+原标题：Troubleshooting：防火墙安全组拦截访问请求
+简介：缓存穿透防护保护数据库，实现缓存穿透防护手段，拦截不存在的数据查询，避免请求直接打穿数据库。
+ | 原文链接：http://book.lmepts.asia/blog/9712810.sHtMl
+
+原标题：调优方案：数据库索引不要过度建立，权衡写性能
+简介：rebase 操作防止代码丢失，讲解 rebase 风险点，操作前做好备份，规避错误操作造成代码提交丢失。
+ | 原文链接：http://book.lmepts.asia/blog/1826149.sHtMl
+
+原标题：空指针异常判空容错处理
+简介：golang go mod graph 可视化依赖图，可视化 go 依赖关系，直观看到包之间依赖，定位冲突。
+ | 原文链接：http://book.lmepts.asia/blog/7480702.sHtMl
+
+原标题：golang 错误包装 errors.wrap 用法
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://book.lmepts.asia/blog/9716036.sHtMl
+
+原标题：手写简易 ORM 理解对象映射
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：http://book.lmepts.asia/blog/1846251.sHtMl
+
+原标题：golang 系统设计故障演练简单思路
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://book.lmepts.asia/blog/6370392.sHtMl
+
+原标题：golang 系统设计开源项目依赖版本升级维护
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：http://book.lmepts.asia/blog/0725141.sHtMl
+
+原标题：排错：打包后资源路径，开发生产行为不一致
+简介：golang sql 注入风险规避要点，参数化查询杜绝 sql 注入，禁止字符串拼接 SQL 语句执行。
+ | 原文链接：http://book.lmepts.asia/blog/6373594.sHtMl
+
+原标题：开发记录：跨域中间件完整配置与边界处理
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：http://book.lmepts.asia/blog/4158362.sHtMl
+
+原标题：新手避坑：第一次提交GitHub项目完整流程
+简介：golang 大文件读取内存优化，Go 流式读取大文件，分块处理，避免大文件一次性加载全部到内存。
+ | 原文链接：http://book.lmepts.asia/blog/7495797.sHtMl
+
+原标题：Hands‑on：模拟RPC超时重试业务异常场景
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：http://book.lmepts.asia/blog/3263695.sHtMl
+
+原标题：开发记录：服务优雅关闭释放资源完整实现
+简介：空指针异常判空容错处理，讲解空指针产生场景，规范判空逻辑，增加容错，避免空指针直接造成程序崩溃。
+ | 原文链接：http://book.lmepts.asia/blog/8525046.sHtMl
+
+原标题：数据库分表存储大表优化方案
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://book.lmepts.asia/blog/9637035.sHtMl
+
+原标题：golang 系统设计缓存 key 命名规范最佳实践
+简介：golang go work 多模块本地开发，go work 多模块本地同时开发，本地模块互相引用，无需推送仓库。
+ | 原文链接：http://book.lmepts.asia/blog/2947250.sHtMl
+
+原标题：Architecture：静态资源分发CDN整体架构思路
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://book.lmepts.asia/blog/9385958.sHtMl
+
+原标题：踩坑记录：端口被占用导致服务启动失败
+简介：golang go 自定义错误类型实现，自定义 error 结构体，携带错误码、堆栈信息，统一业务错误。
+ | 原文链接：http://book.lmepts.asia/blog/4151391.sHtMl
+
+原标题：DNS 解析异常第三方调用故障
+简介：文件批量导入导出功能实现，开发批量导入导出接口，处理大量文件数据，完成业务数据批量迁移与导出。
+ | 原文链接：http://book.lmepts.asia/blog/6380703.sHtMl
+
+原标题：入门实践：简单数据脱敏处理示例
+简介：golang go 爬虫异步并发抓取，协程池控制并发抓取网页，多协程采集，提升爬虫采集速度。
+ | 原文链接：http://book.lmepts.asia/blog/7485635.sHtMl
+
+原标题：日志切割配置防止日志丢失
+简介：开发环境变量配置全平台教程，区分 Windows、macOS、Linux 系统，讲解环境变量配置、加载优先级与常见失效原因。
+ | 原文链接：http://book.lmepts.asia/blog/4162484.sHtMl
+
+四、架构设计｜Architecture
+原标题：golang 系统设计缓存空值防止缓存穿透实现
+简介：golang http.Server 配置参数详解，ReadTimeout WriteTimeout IdleTimeout，全方位防护慢请求攻击。
+ | 原文链接：http://book.lmepts.asia/blog/2928970.sHtMl
+
+原标题：系统文件描述符上限调大
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：http://book.lmepts.asia/blog/0713806.sHtMl
+
+原标题：性能笔记：避免频繁创建销毁对象GC优化
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://book.lmepts.asia/blog/5294928.sHtMl
+
+原标题：golang 系统设计缓存过期时间设置原则梳理
+简介：vue pinia 状态管理实战教程，Pinia 完整实战示例，实现状态定义修改，模块拆分替代 Vuex。
+ | 原文链接：http://book.lmepts.asia/blog/0748257.sHtMl
+
+原标题：WebSocket 断线重连稳定优化
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：http://book.lmepts.asia/blog/6303817.sHtMl
+
+原标题：开发记录：分布式锁超时业务安全处理实践
+简介：API 大版本不兼容平滑迁移，API 版本迭代不兼容旧接口，设计平滑迁移方案，逐步完成版本切换。
+ | 原文链接：http://book.lmepts.asia/blog/1835036.sHtMl
+
+原标题：golang 优雅关闭 grpc 服务示例
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：http://book.lmepts.asia/blog/6383625.sHtMl
+
+原标题：新手教程：如何给开源项目提交第一个PR
+简介：golang redis lua 脚本原子操作，使用 Lua 脚本实现原子逻辑，减少网络往返，保障多命令原子执行。
+ | 原文链接：http://book.lmepts.asia/blog/9602717.sHtMl
+
+原标题：TCP 长连接参数优化 TIME_WAIT
+简介：golang gorm 批量插入性能调优，GORM 批量插入优化，调整批次大小，提升大量数据插入数据库速度。
+ | 原文链接：http://book.lmepts.asia/blog/4159139.sHtMl
+
+原标题：golang 系统设计用户签到统计方案
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：http://book.lmepts.asia/blog/0717958.sHtMl
+
+原标题：开发复盘：分布式会话共享多种方案实践
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://book.lmepts.asia/blog/2924940.sHtMl
+
+原标题：配置外部化线上部署防错误
+简介：golang atomic.Value 存储任意类型数据，atomic.Value 安全存储读取任意类型，配置热更新常用。
+ | 原文链接：http://book.lmepts.asia/blog/5968478.sHtMl
+
+原标题：golang 项目 makefile 脚本编写
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：http://book.lmepts.asia/blog/7481614.sHtMl
+
+原标题：复盘总结：分布式系统常见坑点汇总清单
+简介：golang accept 错误循环崩溃处理，accept 返回系统错误，处理临时错误，避免死循环占满 CPU。
+ | 原文链接：http://book.lmepts.asia/blog/3046025.sHtMl
+
+原标题：依赖安装失败全方位排错
+简介：vite 项目配置与构建提速技巧，讲解 vite 配置优化手段，提升开发热更新速度与生产构建打包效率。
+ | 原文链接：http://book.lmepts.asia/blog/6373813.sHtMl
+
+原标题：Fork 开源项目同步上游代码
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：http://book.lmepts.asia/blog/1825040.sHtMl
+
+原标题：Mock 接口服务快速搭建实操
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://book.lmepts.asia/blog/8493401.sHtMl
+
+原标题：运维笔记：系统文件句柄数调整生产配置
+简介：golang ssh 客户端远程命令执行，golang ssh 连接远程服务器，执行 shell 命令，获取命令输出结果。
+ | 原文链接：http://book.lmepts.asia/blog/2856057.sHtMl
+
+?
