@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：Security：文件上传漏洞攻击面完整防护方案
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://wap.ogyldc.asia/blog/5150291.sHtMl
+
+原标题：运维笔记：线上服务健康检查脚本编写
+简介：nodejs 全局异常捕获进程防护，捕获未捕获异常与 Promise 拒绝，尽量保护进程不因为异常直接退出。
+ | 原文链接：http://wap.ogyldc.asia/blog/3062405.sHtMl
+
+原标题：git cherry‑pick 规范操作防 bug
+简介：nestjs 拦截器过滤器管道实战，实操 Nest 拦截器、异常过滤器、管道校验，处理请求与响应统一逻辑。
+ | 原文链接：http://wap.ogyldc.asia/blog/5262382.sHtMl
+
+原标题：golang k8s 监控 prometheus 部署
+简介：golang select 随机分支执行特性，多个 channel 就绪 select 随机选择，理解 select 行为特性。
+ | 原文链接：http://wap.ogyldc.asia/blog/9163704.sHtMl
+
+原标题：golang 系统设计 id 生成器选型对比
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：http://wap.ogyldc.asia/blog/1718051.sHtMl
+
+原标题：golang ci 流水线制品仓库上传下载
+简介：TCP 心跳检测清理僵死连接，开启 TCP 心跳机制，自动清理僵死无效连接，释放连接资源。
+ | 原文链接：http://wap.ogyldc.asia/blog/0716847.sHtMl
+
+原标题：SourceMap 生成线上报错定位
+简介：前后端会话登录状态持久化，实现登录状态持久存储，重启服务登录状态不丢失，保障会话稳定性。
+ | 原文链接：http://wap.ogyldc.asia/blog/3940271.sHtMl
+
+原标题：数据库连接池参数调优
+简介：golang excel 简单读写操作示例，Go 实现 Excel 简单读写，业务数据导出 Excel 报表。
+ | 原文链接：http://wap.ogyldc.asia/blog/4181693.sHtMl
+
+原标题：golang 系统设计接口参数防篡改校验
+简介：golang 熔断降级简易组件开发，Go 简易熔断组件，下游故障触发熔断，保护上游服务不被拖垮。
+ | 原文链接：http://wap.ogyldc.asia/blog/8695667.sHtMl
+
+原标题：开发复盘：大数据量分页避免offset性能问题
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：http://wap.ogyldc.asia/blog/0782570.sHtMl
+
+原标题：golang 多协程任务池并发控制
+简介：golang go 排序 sort 包自定义排序，sort 包实现自定义排序逻辑，对切片按业务规则排序。
+ | 原文链接：http://wap.ogyldc.asia/blog/4159270.sHtMl
+
+原标题：Issue：Nginxkeepalive参数不合理大量TIME_WAIT
+简介：新手快速上手 Git 版本控制实操指南，讲解 Git 基础概念与常用命令，结合实操案例，帮助零基础用户掌握版本控制核心能力。
+ | 原文链接：http://wap.ogyldc.asia/blog/1828170.sHtMl
+
+原标题：极简 API 网关路由转发实现
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：http://wap.ogyldc.asia/blog/8491684.sHtMl
+
+原标题：开发复盘：百万数据批量导入数据库优化方案
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：http://wap.ogyldc.asia/blog/6370706.sHtMl
+
+原标题：golang 系统设计秒杀防超卖方案
+简介：前端防抖节流高频事件处理，封装防抖节流工具，处理滚动、输入框输入等高频触发事件减少执行次数。
+ | 原文链接：http://wap.ogyldc.asia/blog/4949149.sHtMl
+
+原标题：golang docker 镜像体积优化技巧
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：http://wap.ogyldc.asia/blog/2826251.sHtMl
+
+原标题：前端大文件分片上传完整方案
+简介：nodejs 全局异常捕获进程防护，捕获未捕获异常与 Promise 拒绝，尽量保护进程不因为异常直接退出。
+ | 原文链接：http://wap.ogyldc.asia/blog/6362403.sHtMl
+
+原标题：golang redis 主从复制哨兵原理
+简介：golang redis 过期时间处理技巧，设置 key 过期，监控过期事件，基于过期特性实现业务缓存逻辑。
+ | 原文链接：http://wap.ogyldc.asia/blog/5268925.sHtMl
+
+原标题：golang 系统设计日志脱敏防止信息泄露
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：http://wap.ogyldc.asia/blog/0591270.sHtMl
+
+原标题：golang 批量任务协程控制防雪崩
+简介：文件编码统一随机乱码修复，统一项目全部文件读写编码，消除随机中文乱码，保证文本处理稳定。
+ | 原文链接：http://wap.ogyldc.asia/blog/4748382.sHtMl
+
+原标题：无用对象回收抑制内存上涨
+简介：数据库连接及时关闭连接泄漏，确保数据库连接使用完毕释放归还连接池，杜绝连接泄漏耗尽连接。
+ | 原文链接：http://wap.ogyldc.asia/blog/1714942.sHtMl
+
+原标题：golang 系统设计海量数据分页查询
+简介：golang go 爬虫请求速率控制，爬虫限频、代理轮换，设置 UA，防止爬虫被目标站点封禁 IP。
+ | 原文链接：http://wap.ogyldc.asia/blog/5080563.sHtMl
+
+原标题：vue3 组合式 API 业务开发实战
+简介：GET POST 接口请求参数处理，讲解两种请求方式参数传递区别，演示参数接收、解析、校验，适配不同接口调用场景。
+ | 原文链接：http://wap.ogyldc.asia/blog/9536061.sHtMl
+
+原标题：新手向：看懂项目README的正确阅读姿势
+简介：用户敏感数据脱敏代码实现，编写数据脱敏工具，对手机号、身份证做脱敏处理，防止敏感信息直接泄露。
+ | 原文链接：http://wap.ogyldc.asia/blog/5373404.sHtMl
+
+原标题：新手教程：如何给开源项目提交第一个PR
+简介：前端打包产物体积压缩优化，多手段压缩前端打包产物，移除无用代码，压缩资源，提升页面加载速度。
+ | 原文链接：http://wap.ogyldc.asia/blog/0606837.sHtMl
+
+原标题：golang 分布式上下文传递方案
+简介：Redis 热点 key 拆分降低集群压力，拆分访问量极高的热点 Key，分散请求压力，避免 Redis 节点压力过高。
+ | 原文链接：http://wap.ogyldc.asia/blog/2858253.sHtMl
+
+原标题：本地运行正常线上报错排查
+简介：golang yaml 解析配置加载实操，Go 解析 YAML 配置文件，读取配置参数，驱动业务运行。
+ | 原文链接：http://wap.ogyldc.asia/blog/1717060.sHtMl
+
+原标题：golang 系统设计 saga 事务补偿模式实现思路
+简介：golang go‑zero 缓存自动击穿防护，go‑zero 缓存组件自带缓存击穿防护，减少缓存层故障。
+ | 原文链接：http://wap.ogyldc.asia/blog/9547241.sHtMl
+
+原标题：golang docker 基础命令实操汇总
+简介：golang prometheus client 业务埋点实操，prometheus client‑go 业务埋点，计数器、仪表盘、直方图指标开发。
+ | 原文链接：http://wap.ogyldc.asia/blog/4051381.sHtMl
+
+原标题：golang mysql 批量导入数据实操
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：http://wap.ogyldc.asia/blog/0717848.sHtMl
+
+原标题：golang 优雅关闭 grpc 服务示例
+简介：golang grpc 错误状态码标准化，grpc 标准化错误返回，定义业务错误码，客户端解析处理业务异常。
+ | 原文链接：http://wap.ogyldc.asia/blog/0424748.sHtMl
+
+原标题：nodejs 集群模式多核利用实现
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：http://wap.ogyldc.asia/blog/8593818.sHtMl
+
+原标题：nodejs 接口限流防刷代码实现
+简介：布隆过滤器数据高效去重实现，实现布隆过滤器组件，用于海量数据去重，节省大量内存空间。
+ | 原文链接：http://wap.ogyldc.asia/blog/6372748.sHtMl
+
+原标题：golang 系统设计多级缓存更新策略
+简介：前端打包分包加载提速方案，前端打包做代码分包，拆分大 bundle，页面按需加载，提升首屏加载速度。
+ | 原文链接：http://wap.ogyldc.asia/blog/3939060.sHtMl
+
+原标题：架构复盘：消息死信处理架构避免消息丢失
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：http://wap.ogyldc.asia/blog/7472685.sHtMl
+
+原标题：golang 系统设计 grpc http2 多路复用讲解
+简介：golang redis list 队列简易消息队列，利用 Redis List 实现简易队列，完成任务入队消费基础能力。
+ | 原文链接：http://wap.ogyldc.asia/blog/8928653.sHtMl
+
+原标题：前端防抖节流高频事件处理
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：http://wap.ogyldc.asia/blog/4134518.sHtMl
+
+原标题：golang docker 私有仓库搭建使用
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：http://wap.ogyldc.asia/blog/3923546.sHtMl
+
+原标题：Practice：模拟网络抖动验证服务容错能力
+简介：golang go mod exclude 排除依赖版本，exclude 排除有问题依赖版本，规避有 bug 的第三方包。
+ | 原文链接：http://wap.ogyldc.asia/blog/9595626.sHtMl
+
+原标题：golang 系统设计 mq 消息顺序性保证思路
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：http://wap.ogyldc.asia/blog/6827819.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 信号量控制并发数量
+简介：golang 高并发下锁优化减少竞争，减小锁粒度，读写锁替换互斥锁，无锁编程降低锁竞争开销。
+ | 原文链接：http://wap.ogyldc.asia/blog/5264807.sHtMl
+
+原标题：golang 系统设计告警升级通知策略配置思路
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://wap.ogyldc.asia/blog/4748848.sHtMl
+
+原标题：架构复盘：多级缓存架构，本地缓存+分布式缓存
+简介：文件监控服务自动重启开发，监控项目文件变更，代码修改自动重启服务，提升本地开发调试效率。
+ | 原文链接：http://wap.ogyldc.asia/blog/3635060.sHtMl
+
+原标题：golang 系统设计 canary 金丝雀部署实操
+简介：gitignore 文件编写过滤规则，讲解 gitignore 语法，编写过滤配置，忽略缓存、编译产物、密钥文件，保持仓库整洁。
+ | 原文链接：http://wap.ogyldc.asia/blog/4046237.sHtMl
+
+原标题：Practice：实现防爬虫简单拦截中间件实践
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：http://wap.ogyldc.asia/blog/1818171.sHtMl
+
+原标题：golang 系统设计接口向前兼容改造实操
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://wap.ogyldc.asia/blog/3035021.sHtMl
+
+原标题：golang redis 过期策略内存淘汰
+简介：浏览器本地存储安全使用技巧，讲解 localStorage、sessionStorage 使用边界，规避 XSS 泄露存储数据。
+ | 原文链接：http://wap.ogyldc.asia/blog/2635271.sHtMl
+
+原标题：方案对比：RPC、HTTP、gRPC场景选型分析
+简介：golang 简单爬虫请求防封禁，简易 Go 爬虫实现，增加请求间隔、UA 伪装，规避被目标站点封禁 IP。
+ | 原文链接：http://wap.ogyldc.asia/blog/2593514.sHtMl
+
+原标题：Hands‑on：简易速率限制中间件完整实现
+简介：golang go 项目工程目录布局标准，不同规模 go 项目目录结构，小型项目中型项目大型微服务项目布局。
+ | 原文链接：http://wap.ogyldc.asia/blog/8594615.sHtMl
+
+原标题：Performance：JSON序列化性能优化实践
+简介：分布式 ID 生成器高并发实现，实现高性能分布式 ID 生成器，适配高并发业务，生成全局唯一 ID。
+ | 原文链接：http://wap.ogyldc.asia/blog/2929026.sHtMl
+
+原标题：OpenSource：开源项目README高质量编写指南
+简介：批量数据处理脚本编写技巧，编写脚本批量处理大量业务数据，循环处理、分批执行，提升数据处理效率。
+ | 原文链接：http://wap.ogyldc.asia/blog/0692718.sHtMl
+
+原标题：文件批量导入导出功能实现
+简介：golang sync.Map 适用场景与性能对比，读多写少，离散 key，对比普通 map 加锁性能差异。
+ | 原文链接：http://wap.ogyldc.asia/blog/6369461.sHtMl
+
+原标题：RPC 报文大小上限调优大请求
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：http://wap.ogyldc.asia/blog/4158404.sHtMl
+
+原标题：安全笔记：文件下载接口路径校验安全
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://wap.ogyldc.asia/blog/6369479.sHtMl
+
+原标题：golang 数据库连接泄露排查
+简介：golang io.Reader io.Writer 接口理解，io 读写接口，各类数据源统一抽象，适配 io 复制函数。
+ | 原文链接：http://wap.ogyldc.asia/blog/4293815.sHtMl
+
+原标题：golang k8s service 服务暴露几种类型
+简介：golang 信号触发配置重载实践，收到 SIGUSR1 信号重新加载配置，线上无需重启刷新配置。
+ | 原文链接：http://wap.ogyldc.asia/blog/1713803.sHtMl
+
+原标题：对象存储上传下载权限实操
+简介：JWT 令牌过期异常处理，捕获 JWT 过期、篡改异常，编写业务处理逻辑，引导用户重新获取令牌。
+ | 原文链接：http://wap.ogyldc.asia/blog/2857141.sHtMl
+
+原标题：golang redis 过期 key 监听业务
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://wap.ogyldc.asia/blog/6868351.sHtMl
+
+原标题：DNS 解析异常第三方调用故障
+简介：golang 容器 OOM 被杀死排查区分，区分业务内存泄漏、容器限制过小，定位容器 OOMKilled 原因。
+ | 原文链接：http://wap.ogyldc.asia/blog/0603808.sHtMl
+
+原标题：pnpm 包管理工具实战避坑指南
+简介：K8s 镜像拉取网络故障修复，排查 K8s 集群镜像拉取网络问题，配置镜像源，恢复镜像正常拉取。
+ | 原文链接：http://wap.ogyldc.asia/blog/2939050.sHtMl
+
+原标题：DevOps：多阶段构建Dockerfile最佳实践
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：http://wap.ogyldc.asia/blog/8484636.sHtMl
+
+原标题：golang websocket 消息广播实现
+简介：golang 系统 IO 阻塞 goroutine 场景，理解系统调用阻塞 M，P 会调度其他 M，掌握 go 调度行为。
+ | 原文链接：http://wap.ogyldc.asia/blog/9591682.sHtMl
+
+原标题：新手教程：本地项目初始化gitignore配置
+简介：golang loki 日志收集 go 服务集成，日志输出适配 loki，标签携带 traceId，日志集中检索排查问题。
+ | 原文链接：http://wap.ogyldc.asia/blog/4050382.sHtMl
+
+原标题：入门实践：简单数据脱敏处理示例
+简介：golang 协程 panic 捕获防止崩溃，协程内部捕获 panic，防止单个协程恐慌造成整个 Go 进程崩溃。
+ | 原文链接：http://wap.ogyldc.asia/blog/4039236.sHtMl
+
+原标题：安全复盘：Redis命令注入风险防护手段
+简介：golang 信号量控制并发数量，使用信号量控制并发，限制同时执行任务数量，保护下游资源。
+ | 原文链接：http://wap.ogyldc.asia/blog/2957141.sHtMl
+
+原标题：golang 系统设计混沌测试简单场景模拟实现
+简介：批量异步处理系统业务落地，构建批量异步处理系统，把耗时业务异步化，提升接口响应速度。
+ | 原文链接：http://wap.ogyldc.asia/blog/9101170.sHtMl
+
+原标题：架构笔记：批量任务系统架构防重复、断点续跑
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：http://wap.ogyldc.asia/blog/0602818.sHtMl
+
+原标题：golang 系统设计接口向前兼容改造实操
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：http://wap.ogyldc.asia/blog/0693309.sHtMl
+
+原标题：分布式事务最终一致性实现
+简介：golang 文件句柄耗尽排查处理，统计进程打开文件句柄，找到未关闭文件，修复句柄泄漏问题。
+ | 原文链接：http://wap.ogyldc.asia/blog/3968363.sHtMl
+
+原标题：异步任务堆积消费能力优化
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：http://wap.ogyldc.asia/blog/3824015.sHtMl
+
+原标题：golang 系统设计埋点数据上报方案
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：http://wap.ogyldc.asia/blog/6303726.sHtMl
+
+原标题：golang 系统设计配置多环境本地开发适配方案
+简介：golang channel 作为函数参数方向，声明 channel 入参方向，只读 channel 只写 channel 提升代码约束。
+ | 原文链接：http://wap.ogyldc.asia/blog/8302692.sHtMl
+
+原标题：性能笔记：磁盘IO过高业务优化手段
+简介：golang go 模板缓存预编译模板，预编译 html 模板，程序启动加载，避免每次请求解析模板损耗性能。
+ | 原文链接：http://wap.ogyldc.asia/blog/8584581.sHtMl
+
+原标题：golang mysql 连接泄漏检测方法
+简介：手写简易 RPC 服务通信原型，手写极简 RPC 原型，理解服务注册、网络传输、方法调用底层逻辑。
+ | 原文链接：http://wap.ogyldc.asia/blog/5858469.sHtMl
+
+原标题：golang 系统设计 p0 故障复盘方法论讲解
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：http://wap.ogyldc.asia/blog/3040170.sHtMl
+
+原标题：前端打包产物体积压缩优化
+简介：新手快速上手 Git 版本控制实操指南，讲解 Git 基础概念与常用命令，结合实操案例，帮助零基础用户掌握版本控制核心能力。
+ | 原文链接：http://wap.ogyldc.asia/blog/5261258.sHtMl
+
+原标题：golang 系统设计代码评审 checklist 清单
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://wap.ogyldc.asia/blog/2827359.sHtMl
+
+原标题：Git LFS 大文件推送失败解决
+简介：golang sql 注入风险规避要点，参数化查询杜绝 sql 注入，禁止字符串拼接 SQL 语句执行。
+ | 原文链接：http://wap.ogyldc.asia/blog/1441215.sHtMl
+
+原标题：坑点：gitrebase操作失误，代码提交丢失
+简介：golang strconv 字符串类型转换，字符串转数字布尔，处理转换失败 error，避免 panic。
+ | 原文链接：http://wap.ogyldc.asia/blog/6573014.sHtMl
+
+原标题：golang 系统设计配置敏感信息加密存储
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://wap.ogyldc.asia/blog/7389581.sHtMl
+
+三、实战开发｜Practice
+原标题：golang makefile 自动化构建脚本
+简介：golang 内存碎片问题识别与规避，大量小对象频繁分配产生内存碎片，通过对象池减少碎片。
+ | 原文链接：http://wap.ogyldc.asia/blog/5172721.sHtMl
+
+原标题：调优方案：JVM内存参数优化，降低GC频率
+简介：golang go xml 解析生成 xml 文档，encoding/xml 解析 xml，结构体标签映射 xml 节点属性。
+ | 原文链接：http://wap.ogyldc.asia/blog/0603405.sHtMl
+
+原标题：浮点计算精度错误处理方案
+简介：golang 进程信号捕获 SIGUSR 自定义信号，捕获用户自定义信号，实现线上不重启触发调试、日志切换。
+ | 原文链接：http://wap.ogyldc.asia/blog/1817959.sHtMl
+
+原标题：golang es 更新文档注意版本冲突
+简介：ORM 框架数据库增删改查实操，使用 ORM 框架完成数据库基础操作，减少手写 SQL，简化业务层数据库交互代码。
+ | 原文链接：http://wap.ogyldc.asia/blog/6369469.sHtMl
+
+原标题：优化实践：读写分离分担主库查询压力
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：http://wap.ogyldc.asia/blog/4070582.sHtMl
+
+原标题：gitignore 文件编写过滤规则
+简介：golang http.Server 配置参数详解，ReadTimeout WriteTimeout IdleTimeout，全方位防护慢请求攻击。
+ | 原文链接：http://wap.ogyldc.asia/blog/7114580.sHtMl
+
+原标题：运维笔记：服务器故障排查常用命令清单
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：http://wap.ogyldc.asia/blog/4816704.sHtMl
+
+原标题：golang 系统设计容器镜像安全加固要点
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：http://wap.ogyldc.asia/blog/2715125.sHtMl
+
+原标题：HelloWorld：快速上手新项目最小可运行示例
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：http://wap.ogyldc.asia/blog/2817960.sHtMl
+
+原标题：Practice：模拟主从延迟业务兼容方案实践
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：http://wap.ogyldc.asia/blog/8473361.sHtMl
+
+原标题：golang 系统设计缓存空值防止缓存穿透实现
+简介：golang ctx 关闭之后资源释放，context 取消后，监听 Done ()，释放 goroutine 网络 IO 资源。
+ | 原文链接：http://wap.ogyldc.asia/blog/6373504.sHtMl
+
+原标题：golang prometheus 指标暴露实现
+简介：缓存穿透防护保护数据库，实现缓存穿透防护手段，拦截不存在的数据查询，避免请求直接打穿数据库。
+ | 原文链接：http://wap.ogyldc.asia/blog/1601602.sHtMl
+
+原标题：大事务拆分防止连接池耗尽
+简介：Git 分支切换合并删除完整操作，实操分支全生命周期操作，包含切换、合并、删除，熟悉日常开发分支处理流程。
+ | 原文链接：http://wap.ogyldc.asia/blog/9595736.sHtMl
+
+原标题：新手教程：Gittag版本标签打标签实操
+简介：全量回归测试提升代码质量，搭建全量回归测试集，版本发布执行回归测试，避免迭代引入旧 bug。
+ | 原文链接：http://wap.ogyldc.asia/blog/1927918.sHtMl
+
+原标题：golang 系统设计技术方案文档模板参考
+简介：golang go get 升级降级依赖版本，go get 指定版本升级降级依赖包，管理第三方库版本。
+ | 原文链接：http://wap.ogyldc.asia/blog/4072695.sHtMl
+
+原标题：golang 系统设计用户签到统计方案
+简介：golang go1.18 + 泛型基础实操，go 泛型基础语法，泛型函数泛型类型，实现通用工具函数。
+ | 原文链接：http://wap.ogyldc.asia/blog/6257857.sHtMl
+
+原标题：golang 系统设计故障复盘模板 postmortem 参考
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：http://wap.ogyldc.asia/blog/2969363.sHtMl
+
+原标题：git cherry‑pick 规范操作防 bug
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://wap.ogyldc.asia/blog/3636736.sHtMl
+
+原标题：golang 系统设计配置热更新不重启服务实现
+简介：golang dns 自定义解析器实现，自定义 dns 解析，指定 dns 服务器，控制域名解析逻辑，适配内网环境。
+ | 原文链接：http://wap.ogyldc.asia/blog/6261392.sHtMl
+
+原标题：排错：前端打包chunk过大浏览器加载缓慢
+简介：golang 微服务网关简易实现，http 反向代理、路由匹配、鉴权限流，理解网关核心原理。
+ | 原文链接：http://wap.ogyldc.asia/blog/4524826.sHtMl
+
+原标题：Security：接口鉴权越权漏洞检测与修复
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：http://wap.ogyldc.asia/blog/6414815.sHtMl
+
+原标题：入门实践：简单批量处理脚本编写
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：http://wap.ogyldc.asia/blog/7968959.sHtMl
+
+原标题：golang 系统设计技术文档编写最佳实践
+简介：golang go panic 合理使用边界，panic 只用于不可恢复程序错误，业务逻辑禁止直接 panic。
+ | 原文链接：http://wap.ogyldc.asia/blog/0925031.sHtMl
+
+原标题：HelloShell：入门常用shell脚本编写
+简介：golang 后端节点健康检查机制实现，定时探测后端节点状态，自动剔除故障节点，保障转发可用。
+ | 原文链接：http://wap.ogyldc.asia/blog/7480179.sHtMl
+
+原标题：缓存穿透击穿雪崩全套防护
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://wap.ogyldc.asia/blog/8180585.sHtMl
+
+原标题：新手教程：配置SSH‑Key免密访问GitHub
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://wap.ogyldc.asia/blog/1345414.sHtMl
+
+原标题：架构复盘：限流系统架构防止恶意流量冲击
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://wap.ogyldc.asia/blog/0818445.sHtMl
+
+原标题：golang 系统设计数据库表设计通用规范模板
+简介：golang contract 契约测试微服务，微服务契约测试，保证接口变更不破坏调用方，提前发现兼容性问题。
+ | 原文链接：http://wap.ogyldc.asia/blog/5609237.sHtMl
+
+原标题：运维笔记：服务器日志轮转logrotate配置
+简介：golang go 泛型实现通用数据结构，泛型实现通用栈队列，复用逻辑支持多种数据类型。
+ | 原文链接：http://wap.ogyldc.asia/blog/0629058.sHtMl
+
+原标题：项目依赖安全扫描漏洞防范
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://wap.ogyldc.asia/blog/8402804.sHtMl
+
+原标题：项目实践：分布式会话Redis存储落地实践
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：http://wap.ogyldc.asia/blog/9594626.sHtMl
+
+原标题：Security：反序列化漏洞风险识别与规避
+简介：golang 信号量控制并发数量，使用信号量控制并发，限制同时执行任务数量，保护下游资源。
+ | 原文链接：http://wap.ogyldc.asia/blog/2480679.sHtMl
+
+原标题：实践：Git工作流主干开发团队协作实践
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：http://wap.ogyldc.asia/blog/7416130.sHtMl
+
+原标题：golang 系统设计 rest http 方法使用原则
+简介：Nginx 反向代理路由配置实战，配置 Nginx 反向代理，实现请求转发、路由分发，掌握 Nginx 基础配置能力。
+ | 原文链接：http://wap.ogyldc.asia/blog/7371263.sHtMl
+
+原标题：golang github actions 缓存依赖提速
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：http://wap.ogyldc.asia/blog/6273515.sHtMl
+
+原标题：golang redis set 集合去重业务
+简介：golang go time 时区数据库内置，go 内置时区数据库，不用系统时区文件，容器时区不依赖系统。
+ | 原文链接：http://wap.ogyldc.asia/blog/6821059.sHtMl
+
+原标题：golang 系统设计开源项目维护简单经验分享
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：http://wap.ogyldc.asia/blog/0492392.sHtMl
+
+原标题：golang 系统设计容器镜像安全加固要点
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://wap.ogyldc.asia/blog/8480460.sHtMl
+
+原标题：nodejs 单元测试 jest 实操教程
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://wap.ogyldc.asia/blog/5172404.sHtMl
+
+原标题：express 请求参数校验处理
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：http://wap.ogyldc.asia/blog/0202257.sHtMl
+
+四、架构设计｜Architecture
+原标题：CLI 工具进度条交互效果开发
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：http://wap.ogyldc.asia/blog/6383837.sHtMl
+
+原标题：浏览器内存泄漏排查前端页面
+简介：项目依赖安全扫描漏洞防范，扫描项目第三方依赖包，修复存在安全漏洞依赖，防范供应链攻击。
+ | 原文链接：http://wap.ogyldc.asia/blog/1717736.sHtMl
+
+原标题：开源实践：开源Issue沟通技巧如何有效提Bug
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：http://wap.ogyldc.asia/blog/6291796.sHtMl
+
+原标题：Performance：JSON序列化性能优化实践
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：http://wap.ogyldc.asia/blog/3929925.sHtMl
+
+原标题：express 请求参数校验处理
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：http://wap.ogyldc.asia/blog/8791909.sHtMl
+
+原标题：golang kafka 重试机制配置实操
+简介：golang channel 缓冲无缓冲区别，缓冲 channel 与无缓冲 channel，底层行为差异业务选型参考。
+ | 原文链接：http://wap.ogyldc.asia/blog/6466316.sHtMl
+
+原标题：golang aes 对称加密解密示例
+简介：网络读取超时设置连接挂起防护，设置网络读取超时时间，防止请求无限挂起不返回，占用连接资源。
+ | 原文链接：http://wap.ogyldc.asia/blog/0807747.sHtMl
+
+原标题：安全复盘：Redis命令注入风险防护手段
+简介：golang redis pipeline 批量操作，使用 Redis Pipeline 批量执行多条命令，减少网络往返，提升批量操作性能。
+ | 原文链接：http://wap.ogyldc.asia/blog/7668036.sHtMl
+
+原标题：安全实践：SQL注入产生场景与完整防御手段
+简介：golang 后端节点健康检查机制实现，定时探测后端节点状态，自动剔除故障节点，保障转发可用。
+ | 原文链接：http://wap.ogyldc.asia/blog/1746060.sHtMl
+
+原标题：golang traceId spanId 传递方案
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://wap.ogyldc.asia/blog/4147047.sHtMl
+
+原标题：实战项目：WebSocket消息广播房间分组实践
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://wap.ogyldc.asia/blog/8594726.sHtMl
+
+原标题：golang 系统设计 e2e 端到端测试简单落地思路
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：http://wap.ogyldc.asia/blog/3368949.sHtMl
+
+原标题：golang 系统设计日志采样降低存储开销方案
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://wap.ogyldc.asia/blog/7485737.sHtMl
+
+原标题：方案设计：批量大数据导出系统架构拆解
+简介：golang websocket 服务端开发，Go 实现 WebSocket 服务端，处理连接、消息收发，实现长连接服务。
+ | 原文链接：http://wap.ogyldc.asia/blog/8483468.sHtMl
+
+原标题：多规则数据脱敏组件开发
+简介：CORS 跨域问题多种解决方案，对比 CORS、代理等不同跨域方案优缺点，根据业务场景选择合适的跨域处理方式。
+ | 原文链接：http://wap.ogyldc.asia/blog/8403807.sHtMl
+
+原标题：golang 系统设计多级缓存架构落地
+简介：golang go‑pg postgres 客户端实操，go‑pg 操作 PostgreSQL 数据库，CRUD 关联查询业务开发。
+ | 原文链接：http://wap.ogyldc.asia/blog/5290160.sHtMl
+
+原标题：golang makefile 自动化构建脚本
+简介：golang mysql 慢查询日志程序采集解析，程序读取解析 mysql 慢查询日志，统计慢 SQL 做监控告警。
+ | 原文链接：http://wap.ogyldc.asia/blog/5150574.sHtMl
+
+原标题：Troubleshoot：RPC序列化对象字段增减兼容踩坑
+简介：golang 服务注册 etcd 简单示例，etcd 实现服务注册发现，微服务实例注册元数据，客户端发现节点。
+ | 原文链接：http://wap.ogyldc.asia/blog/3003795.sHtMl
+
+?
