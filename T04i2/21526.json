@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang ci 流水线自动部署 k8s 示例
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：http://wap.herthw.asia/blog/2838950.sHtMl
+
+原标题：Troubleshooting：数据库索引失效，查询性能暴跌
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://wap.herthw.asia/blog/4078182.sHtMl
+
+原标题：golang 系统设计单元测试编写原则最佳实践
+简介：golang sort 切片排序自定义 less，sort.Slice 切片快速排序，自定义 less 函数实现业务排序。
+ | 原文链接：http://wap.herthw.asia/blog/1835848.sHtMl
+
+原标题：Practice：批量异步任务处理系统设计实现
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：http://wap.herthw.asia/blog/0726950.sHtMl
+
+原标题：golang 系统设计开源项目协作流程梳理
+简介：golang 读写分离 gorm 实现主从切换，gorm 配置主库写入从库查询，读写分离分担数据库查询压力。
+ | 原文链接：http://wap.herthw.asia/blog/1814130.sHtMl
+
+原标题：golang 系统设计一致性哈希原理讲解
+简介：操作系统内核版本适配服务，针对服务运行要求，适配操作系统内核版本，规避内核兼容 bug。
+ | 原文链接：http://wap.herthw.asia/blog/3040391.sHtMl
+
+原标题：DevOps：WSL2生产环境使用风险提示
+简介：golang 内存 dump 线上堆快照采集，线上生成内存 dump 文件，线下分析，定位内存泄漏问题。
+ | 原文链接：http://wap.herthw.asia/blog/7491702.sHtMl
+
+原标题：多实例部署 Session 共享方案
+简介：golang channel 作为函数参数方向，声明 channel 入参方向，只读 channel 只写 channel 提升代码约束。
+ | 原文链接：http://wap.herthw.asia/blog/8505813.sHtMl
+
+原标题：Architecture：事件溯源架构模式适用业务场景
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://wap.herthw.asia/blog/4168281.sHtMl
+
+原标题：快速入门日志打印与日志分级基础用法
+简介：ORM 框架数据库增删改查实操，使用 ORM 框架完成数据库基础操作，减少手写 SQL，简化业务层数据库交互代码。
+ | 原文链接：http://wap.herthw.asia/blog/4346251.sHtMl
+
+原标题：golang es 分词器选型业务适配
+简介：golang go‑zero 监控指标埋点，go‑zero 内置 metrics 监控，上报业务指标对接监控平台。
+ | 原文链接：http://wap.herthw.asia/blog/8894940.sHtMl
+
+原标题：项目依赖安全扫描漏洞防范
+简介：golang toml 配置文件解析教程，Go 解析 Toml 格式配置，适用于项目配置管理场景。
+ | 原文链接：http://wap.herthw.asia/blog/7493625.sHtMl
+
+原标题：golang 错误包装 errors.wrap 用法
+简介：golang 文件句柄耗尽排查处理，统计进程打开文件句柄，找到未关闭文件，修复句柄泄漏问题。
+ | 原文链接：http://wap.herthw.asia/blog/7494795.sHtMl
+
+原标题：nodejs 接口限流防刷代码实现
+简介：大事务拆分防止连接池耗尽，将执行时间很长的大事务拆分为小事务，减少事务占用连接时长。
+ | 原文链接：http://wap.herthw.asia/blog/9627959.sHtMl
+
+原标题：Issue复现：内存泄漏定位完整复盘记录
+简介：golang go 调用动态链接库 so 文件，go 加载 so 动态库调用函数，复用编译好的 C 动态库。
+ | 原文链接：http://wap.herthw.asia/blog/6636282.sHtMl
+
+原标题：golang minio 分片上传断点续传
+简介：golang json 解析未知动态 json 结构，解析到 map [string] any 处理未知 json，动态读取字段。
+ | 原文链接：http://wap.herthw.asia/blog/3645931.sHtMl
+
+原标题：实践：大文件分片上传后端完整实现思路
+简介：文件句柄上限调整上传随机失败，调高系统文件句柄上限，解决高并发上传场景随机打开文件失败。
+ | 原文链接：http://wap.herthw.asia/blog/3606886.sHtMl
+
+原标题：Hands‑on：简易配置热更新组件开发实践
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：http://wap.herthw.asia/blog/7593516.sHtMl
+
+原标题：提交第一个开源 PR 完整流程
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：http://wap.herthw.asia/blog/1557253.sHtMl
+
+原标题：正则表达式优化 CPU 占满问题
+简介：golang go 优雅处理信号丢失场景，处理信号丢失、信号被忽略，保障程序可以正常接收终止信号。
+ | 原文链接：http://wap.herthw.asia/blog/8594648.sHtMl
+
+原标题：react hooks 常见陷阱避坑指南
+简介：golang consul 服务发现简单示例，对接 Consul 实现服务注册发现，微服务实例自动感知。
+ | 原文链接：http://wap.herthw.asia/blog/8605736.sHtMl
+
+原标题：golang 系统设计容器 OOM 故障完整排查
+简介：golang redis 过期时间处理技巧，设置 key 过期，监控过期事件，基于过期特性实现业务缓存逻辑。
+ | 原文链接：http://wap.herthw.asia/blog/1827960.sHtMl
+
+原标题：Security：服务器最小权限账号运维实践
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://wap.herthw.asia/blog/5150494.sHtMl
+
+原标题：方案对比：缓存更新策略Cache‑Aside读写模式
+简介：golang time 时间格式化避坑，Go 时间格式化参考时间牢记，处理时间解析格式化，解决时间输出错乱。
+ | 原文链接：http://wap.herthw.asia/blog/9602708.sHtMl
+
+原标题：golang 系统设计锁优化减少竞争提升吞吐
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：http://wap.herthw.asia/blog/1812575.sHtMl
+
+原标题：SourceMap 生成线上报错定位
+简介：golang cron 任务漂移问题处理，cron 任务执行超时导致任务漂移，通过分布式锁防止任务重叠执行。
+ | 原文链接：http://wap.herthw.asia/blog/2939281.sHtMl
+
+原标题：Practice：实现数据库事务消息最终一致性demo
+简介：开源项目本地运行排错完整清单，汇总开源项目拉取后运行失败各类问题，给出排查思路，快速解决本地启动异常。
+ | 原文链接：http://wap.herthw.asia/blog/2838271.sHtMl
+
+原标题：golang 系统设计 git 分支流程 gitflow 实操
+简介：golang 换行符统一处理，文本文件读写统一换行符，规避不同系统换行符带来解析异常。
+ | 原文链接：http://wap.herthw.asia/blog/8484746.sHtMl
+
+原标题：golang redis stream 消息队列实践
+简介：golang http 重定向策略自定义，CheckRedirect 自定义重定向逻辑，限制重定向次数，防止死循环。
+ | 原文链接：http://wap.herthw.asia/blog/3150392.sHtMl
+
+原标题：golang 系统设计消息堆积排查扩容完整步骤
+简介：服务健康检查监控接口开发，开发健康检查接口，反馈服务运行状态，供编排工具监控服务存活状态。
+ | 原文链接：http://wap.herthw.asia/blog/2828469.sHtMl
+
+原标题：golang mysql limit 大分页优化
+简介：golang tcp keepalive 参数程序配置，go 程序设置 tcp keepalive，操作系统 tcp 保活参数，清理僵死连接。
+ | 原文链接：http://wap.herthw.asia/blog/2947580.sHtMl
+
+原标题：golang 系统设计主键 id 选型雪花自增对比
+简介：golang redis 锁超时业务处理，Redis 分布式锁超时问题处理，锁续期逻辑，防止业务未完成锁提前释放。
+ | 原文链接：http://wap.herthw.asia/blog/5968475.sHtMl
+
+原标题：Practice：模拟数据库故障验证降级逻辑实践
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://wap.herthw.asia/blog/6338172.sHtMl
+
+原标题：架构复盘：网关层、应用层、数据库层层限流架构
+简介：golang 大文件 HTTP 流式上传接收，服务端流式接收上传文件，不全部加载内存，防止大文件 OOM 崩溃。
+ | 原文链接：http://wap.herthw.asia/blog/2938361.sHtMl
+
+原标题：golang 系统设计读写分离延迟业务兼容
+简介：nodejs 事件循环机制完整讲解，拆解 Node.js 事件循环各个阶段，理解异步回调执行顺序。
+ | 原文链接：http://wap.herthw.asia/blog/5272468.sHtMl
+
+原标题：新手指南：看懂开源项目的Issue与PR
+简介：golang redis hyperloglog 基数统计，hyperloglog 统计 UV 基数，海量数据去重统计，极低内存开销。
+ | 原文链接：http://wap.herthw.asia/blog/7191681.sHtMl
+
+原标题：golang 时间时区处理避坑指南
+简介：golang 文件句柄耗尽排查处理，统计进程打开文件句柄，找到未关闭文件，修复句柄泄漏问题。
+ | 原文链接：http://wap.herthw.asia/blog/3049181.sHtMl
+
+原标题：开源项目本地运行排错完整清单
+简介：golang kitex 超时重试熔断配置，kitex 配置调用超时、重试、熔断策略，保障微服务调用稳定性。
+ | 原文链接：http://wap.herthw.asia/blog/4857372.sHtMl
+
+原标题：golang 文件上传下载接口开发
+简介：YAML 配置文件语法快速上手，讲解 YAML 基础语法、缩进规则，编写项目配置文件，规避语法错误引发程序异常。
+ | 原文链接：http://wap.herthw.asia/blog/5258362.sHtMl
+
+原标题：golang 系统设计延迟队列业务实现
+简介：golang 进程信号捕获 SIGUSR 自定义信号，捕获用户自定义信号，实现线上不重启触发调试、日志切换。
+ | 原文链接：http://wap.herthw.asia/blog/4150281.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计分布式锁红锁优缺点梳理
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：http://wap.herthw.asia/blog/8494728.sHtMl
+
+原标题：GitHub Markdown 文档语法汇总
+简介：golang goreleaser 自动版本发布打包，goreleaser 自动化打包发布，生成多平台二进制归档文件。
+ | 原文链接：http://wap.herthw.asia/blog/6371692.sHtMl
+
+原标题：排错：CI缓存策略错误，每次全量重新构建
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://wap.herthw.asia/blog/7605736.sHtMl
+
+原标题：开发复盘：大事务拆分优化业务性能实践
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://wap.herthw.asia/blog/6013325.sHtMl
+
+原标题：golang 系统设计消息堆积排查扩容完整步骤
+简介：golang go 程序敏感信息禁止打印日志，密钥密码禁止输出日志，防止敏感信息日志泄露。
+ | 原文链接：http://wap.herthw.asia/blog/7110123.sHtMl
+
+原标题：方案设计：统一ID生成服务架构对比雪花算法
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：http://wap.herthw.asia/blog/2498002.sHtMl
+
+原标题：golang channel 通道并发处理
+简介：golang grpc 错误状态码标准化，grpc 标准化错误返回，定义业务错误码，客户端解析处理业务异常。
+ | 原文链接：http://wap.herthw.asia/blog/1563557.sHtMl
+
+原标题：新手向：开源项目本地构建失败通用排查步骤
+简介：golang go embed 嵌入静态资源文件，使用 go embed 把静态文件编译进二进制，单文件部署携带静态资源。
+ | 原文链接：http://wap.herthw.asia/blog/0476980.sHtMl
+
+原标题：Architecture：服务注册发现架构原理与选型
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：http://wap.herthw.asia/blog/5258147.sHtMl
+
+原标题：优化实践：接口返回字段裁剪减少报文大小
+简介：golang sync.Map 高并发 map 使用场景，sync.Map 适用场景，读写实操，对比普通 map 加锁性能差异。
+ | 原文链接：http://wap.herthw.asia/blog/1592570.sHtMl
+
+原标题：缓存穿透击穿雪崩全套防护
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://wap.herthw.asia/blog/2939281.sHtMl
+
+原标题：记一次第三方回调IP变动未更新防火墙拦截
+简介：Spring 事务传播机制配置生效，理解事务传播行为，正确配置，修复事务不生效、事务失效的业务 bug。
+ | 原文链接：http://wap.herthw.asia/blog/0716213.sHtMl
+
+原标题：﻿【GettingStarted】从零搭建本地开发环境完整指南
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：http://wap.herthw.asia/blog/3070695.sHtMl
+
+原标题：从零学习简单分布式ID生成思路
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：http://wap.herthw.asia/blog/9602827.sHtMl
+
+原标题：golang viper 配置热更新实操
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://wap.herthw.asia/blog/9302927.sHtMl
+
+原标题：Practice：实现接口mock动态返回不同响应
+简介：项目脚手架模板生成工具，搭建项目模板脚手架，一键生成标准化项目骨架，减少重复初始化工作。
+ | 原文链接：http://wap.herthw.asia/blog/2938142.sHtMl
+
+原标题：实战：搭建日志收集分析简易完整演示环境
+简介：golang 分布式锁 redis 实现，基于 Redis 实现 Go 分布式锁，解决多实例并发竞争资源问题。
+ | 原文链接：http://wap.herthw.asia/blog/8151414.sHtMl
+
+原标题：开发记录：表单文件类型校验后端安全校验实践
+简介：日志输出规范防止磁盘爆满，控制日志输出量，配置日志切割轮转，避免日志文件无限增长占满磁盘。
+ | 原文链接：http://wap.herthw.asia/blog/3016083.sHtMl
+
+原标题：实战：Nginx配置静态站点、反向代理、负载均衡
+简介：golang go 依赖漏洞检测 govulncheck，govulncheck 扫描依赖安全漏洞，发现项目供应链风险。
+ | 原文链接：http://wap.herthw.asia/blog/6483626.sHtMl
+
+原标题：日志驱动异常日志不输出修复
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://wap.herthw.asia/blog/0713139.sHtMl
+
+原标题：golang 系统设计测试覆盖率目标合理设定思路
+简介：安全组端口开放网络访问，调整服务器安全组规则，开放业务需要端口，恢复外部网络访问服务。
+ | 原文链接：http://wap.herthw.asia/blog/7483636.sHtMl
+
+原标题：golang 系统设计 http 接口基准测试实操示例
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://wap.herthw.asia/blog/8593717.sHtMl
+
+原标题：零基础理解幂等性基础概念与场景
+简介：golang go 整洁架构代码组织实践，整洁架构依赖向内，解耦业务逻辑与外部基础设施。
+ | 原文链接：http://wap.herthw.asia/blog/1938189.sHtMl
+
+原标题：golang 系统设计代码评审 checklist 清单
+简介：异步任务堆积消费能力优化，处理消息任务堆积问题，提升消费处理速度，恢复队列正常处理水位。
+ | 原文链接：http://wap.herthw.asia/blog/8582504.sHtMl
+
+原标题：设计思考：大促系统架构压测改造整体思路
+简介：golang context.WithValue 传递元数据，WithValue 只传 traceId 鉴权元数据，不要传业务大对象。
+ | 原文链接：http://wap.herthw.asia/blog/5282503.sHtMl
+
+原标题：安全实践：SQL注入产生场景与完整防御手段
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：http://wap.herthw.asia/blog/0714038.sHtMl
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：golang crypto 密码学最佳实践，go crypto 包加密签名，规避不安全算法，使用安全密码套件。
+ | 原文链接：http://wap.herthw.asia/blog/8547060.sHtMl
+
+原标题：避坑：请求未设置read超时无限挂起连接
+简介：业务错误码完整落地实践，落地完整业务错误码，枚举全部业务异常，统一返回，配套文档说明。
+ | 原文链接：http://wap.herthw.asia/blog/2646251.sHtMl
+
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：golang testing.TB Helper 标记辅助函数，t.Helper 标记辅助函数，报错打印真实调用位置。
+ | 原文链接：http://wap.herthw.asia/blog/6372486.sHtMl
+
+原标题：前端下载导出文件功能实现
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：http://wap.herthw.asia/blog/9293795.sHtMl
+
+原标题：golang es bool 查询条件组合技巧
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://wap.herthw.asia/blog/3040390.sHtMl
+
+原标题：项目实践：MySQL读写分离本地模拟实践
+简介：全局异常处理器接口返回统一，接入全局异常捕获，拦截业务全部异常，对外输出统一格式返回值。
+ | 原文链接：http://wap.herthw.asia/blog/2150392.sHtMl
+
+原标题：Practice：JWT工具封装，刷新令牌完整逻辑
+简介：golang go time 时区数据库内置，go 内置时区数据库，不用系统时区文件，容器时区不依赖系统。
+ | 原文链接：http://wap.herthw.asia/blog/2938141.sHtMl
+
+原标题：golang 系统设计故障演练简单思路
+简介：golang mysql 长连接检测保活设置，配置 mysql 连接保活检测，剔除失效连接，避免拿到断开无效数据库连接。
+ | 原文链接：http://wap.herthw.asia/blog/9607069.sHtMl
+
+原标题：性能复盘：磁盘Swap大量使用系统卡顿优化
+简介：golang udp 服务端客户端开发示例，golang 实现 UDP 服务收发数据包，实现 udp 协议通信程序。
+ | 原文链接：http://wap.herthw.asia/blog/2949281.sHtMl
+
+原标题：golang 系统设计配置多环境隔离方案落地
+简介：golang go get 升级降级依赖版本，go get 指定版本升级降级依赖包，管理第三方库版本。
+ | 原文链接：http://wap.herthw.asia/blog/4281694.sHtMl
+
+原标题：DNS 解析异常第三方调用故障
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：http://wap.herthw.asia/blog/4867070.sHtMl
+
+原标题：前后端会话登录状态持久化
+简介：golang 接口限流中间件开发，Gin 开发限流中间件，接口层实现访问频率限制，防护接口流量。
+ | 原文链接：http://wap.herthw.asia/blog/9657060.sHtMl
+
+原标题：新手教程：本地项目初始化gitignore配置
+简介：golang 高并发下锁优化减少竞争，减小锁粒度，读写锁替换互斥锁，无锁编程降低锁竞争开销。
+ | 原文链接：http://wap.herthw.asia/blog/1838088.sHtMl
+
+原标题：避坑：CookieSecure属性造成测试环境登录失败
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：http://wap.herthw.asia/blog/4880559.sHtMl
+
+三、实战开发｜Practice
+原标题：Hands‑on：简易的事件订阅发布组件开发实践
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://wap.herthw.asia/blog/0470337.sHtMl
+
+原标题：golang 系统设计 tcp keepalive 参数调优实践
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://wap.herthw.asia/blog/2992593.sHtMl
+
+原标题：nestjs 全局返回格式统一处理
+简介：WebSocket 双向通信 demo 开发，搭建简易 WebSocket 服务，实现客户端服务端双向消息推送，理解实时通信原理。
+ | 原文链接：http://wap.herthw.asia/blog/3050293.sHtMl
+
+原标题：Redis 分布式锁高并发安全实现
+简介：golang 云存储 s3 协议对象存储，go s3 客户端，兼容 minio 阿里云 oss，实现文件上传下载签名访问。
+ | 原文链接：http://wap.herthw.asia/blog/3157282.sHtMl
+
+原标题：Practice：实现业务操作日志记录中间件实践
+简介：限流窗口绕过漏洞修复方案，修复限流时间窗口漏洞，避免攻击者绕过限流规则，保障接口防护有效。
+ | 原文链接：http://wap.herthw.asia/blog/9514929.sHtMl
+
+原标题：OpenAPI 自动接口文档生成
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：http://wap.herthw.asia/blog/2946040.sHtMl
+
+原标题：golang 系统设计 vscode go 插件调试配置实操
+简介：消息队列生产消费模型入门，讲解消息队列生产、存储、消费流程，理解异步解耦、削峰，掌握消息队列基础概念。
+ | 原文链接：http://wap.herthw.asia/blog/1828067.sHtMl
+
+原标题：安全复盘：OAuth2授权流程安全坑点汇总
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://wap.herthw.asia/blog/8504515.sHtMl
+
+原标题：golang 系统设计布隆过滤器拦截不存在 key
+简介：golang select 随机分支执行特性，多个 channel 就绪 select 随机选择，理解 select 行为特性。
+ | 原文链接：http://wap.herthw.asia/blog/2957253.sHtMl
+
+原标题：入门实践：使用Git完成第一次代码提交与推送
+简介：特殊输入字符过滤解析防护，过滤用户输入特殊字符，防止解析报错，规避恶意字符带来业务异常。
+ | 原文链接：http://wap.herthw.asia/blog/9607939.sHtMl
+
+原标题：Shell 运维脚本服务器效率提升
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://wap.herthw.asia/blog/1828069.sHtMl
+
+原标题：Troubleshoot：RPC序列化对象字段增减兼容踩坑
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://wap.herthw.asia/blog/6381280.sHtMl
+
+原标题：golang docker 部署 mysql 注意事项
+简介：golang 信号捕获程序退出处理，Go 捕获操作系统信号，做资源回收，控制程序退出流程。
+ | 原文链接：http://wap.herthw.asia/blog/9485036.sHtMl
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：golang grpc 服务端流推送数据，服务端流式响应，服务端持续向客户端推送多条响应消息。
+ | 原文链接：http://wap.herthw.asia/blog/6373716.sHtMl
+
+原标题：nodejs 中间件模式原理剖析
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：http://wap.herthw.asia/blog/7415051.sHtMl
+
+原标题：性能复盘：慢查询日积月累拖垮数据库优化
+简介：golang 单元测试 mock http 请求，mock HTTP 外部接口，单元测试不依赖外部网络，保证用例稳定运行。
+ | 原文链接：http://wap.herthw.asia/blog/1869372.sHtMl
+
+原标题：vue pinia 状态管理实战教程
+简介：数据库 utf8mb4 支持 emoji 存储，数据库字段设置 utf8mb4 字符集，完整支持 emoji 表情存储入库。
+ | 原文链接：http://wap.herthw.asia/blog/2425028.sHtMl
+
+原标题：安全实践：输入输出双向过滤安全最佳实践
+简介：接口请求重试容错机制实现，封装请求重试逻辑，遇到临时网络故障自动重试，提升第三方调用稳定性。
+ | 原文链接：http://wap.herthw.asia/blog/3047236.sHtMl
+
+原标题：实践：消息队列死信处理业务落地实践
+简介：golang defer 闭包变量捕获坑，defer 捕获循环变量引用，变量被复写，理解闭包变量捕获规则。
+ | 原文链接：http://wap.herthw.asia/blog/2935136.sHtMl
+
+原标题：golang redis pipeline 批量操作
+简介：golang mysql 事务回滚异常处理，Go MySQL 事务异常捕获，正确回滚事务，保证异常场景数据回滚。
+ | 原文链接：http://wap.herthw.asia/blog/2937240.sHtMl
+
+原标题：运维笔记：系统内核参数调优生产服务器
+简介：golang 服务限流熔断降级监控完整实践，微服务防护体系，限流熔断降级指标监控告警整套落地。
+ | 原文链接：http://wap.herthw.asia/blog/5270470.sHtMl
+
+原标题：golang 速率限制令牌桶实现
+简介：端口占用访问失败排查方案，讲解端口占用排查命令，定位占用进程，释放端口，解决服务启动端口被占用报错。
+ | 原文链接：http://wap.herthw.asia/blog/3058958.sHtMl
+
+原标题：golang context 上下文传参讲解
+简介：golang cgo 性能开销避坑指南，cgo 调用开销，减少频繁 cgo 调用，规避 cgo 带来内存泄漏风险。
+ | 原文链接：http://wap.herthw.asia/blog/4150281.sHtMl
+
+原标题：一次数据库死锁现场分析与解决方案记录
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：http://wap.herthw.asia/blog/7483807.sHtMl
+
+原标题：记一次日志切割脚本错误直接清空业务日志
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://wap.herthw.asia/blog/3040570.sHtMl
+
+原标题：golang 系统设计自动化测试 ci 流水线集成实操
+简介：golang 静态文件服务搭建教程，Go 搭建静态文件服务，托管静态资源，实现文件直接对外访问。
+ | 原文链接：http://wap.herthw.asia/blog/6046814.sHtMl
+
+原标题：快速上手搭建简易内网测试服务
+简介：golang gin 中间件执行顺序讲解，理解 Gin 中间件注册顺序，区分前置后置逻辑，规避中间件顺序 bug。
+ | 原文链接：http://wap.herthw.asia/blog/1502268.sHtMl
+
+原标题：Issue：日志疯狂打日志快速占满磁盘空间
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：http://wap.herthw.asia/blog/6046703.sHtMl
+
+原标题：项目实践：本地模拟多节点分布式系统实践
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://wap.herthw.asia/blog/8424036.sHtMl
+
+原标题：nodejs 接口限流防刷代码实现
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://wap.herthw.asia/blog/2825030.sHtMl
+
+原标题：rebase 操作防止代码丢失
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://wap.herthw.asia/blog/6384584.sHtMl
+
+原标题：Debug：Websocket频繁断开重连根因分析
+简介：批量异步处理系统业务落地，构建批量异步处理系统，把耗时业务异步化，提升接口响应速度。
+ | 原文链接：http://wap.herthw.asia/blog/0484473.sHtMl
+
+原标题：避坑：ORM框架隐式查询产生大量慢SQL
+简介：golang go 程序抢占调度理解，理解 go 抢占式调度原理，长循环阻塞调度，造成协程调度延迟。
+ | 原文链接：http://wap.herthw.asia/blog/9606136.sHtMl
+
+原标题：golang makefile 自动化构建脚本
+简介：golang defer 闭包变量捕获坑，defer 捕获循环变量引用，变量被复写，理解闭包变量捕获规则。
+ | 原文链接：http://wap.herthw.asia/blog/6379495.sHtMl
+
+原标题：分页逻辑错误数据漏查修复
+简介：多线程线程安全脏数据规避，梳理多线程共享变量，做好同步控制，避免并发修改产生脏数据。
+ | 原文链接：http://wap.herthw.asia/blog/7484524.sHtMl
+
+原标题：集成测试业务流程编写示例
+简介：golang oss 签名 URL 临时访问，生成 oss 临时签名 url，限时访问私有文件，保障文件访问安全可控。
+ | 原文链接：http://wap.herthw.asia/blog/3949484.sHtMl
+
+原标题：Security：Web常见安全漏洞原理与修复清单
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：http://wap.herthw.asia/blog/2938068.sHtMl
+
+原标题：坑点：依赖缓存未更新，旧代码持续运行
+简介：golang gorm 索引设置与优化技巧，定义数据库索引，理解索引生效条件，避免索引失效慢查询。
+ | 原文链接：http://wap.herthw.asia/blog/3049958.sHtMl
+
+原标题：数据库读写分离性能优化
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：http://wap.herthw.asia/blog/3936158.sHtMl
+
+原标题：golang 系统设计 k8s 集群安全配置梳理
+简介：golang prometheus 指标埋点开发，业务埋点计数器、仪表盘、直方图，对接 prometheus 采集监控指标。
+ | 原文链接：http://wap.herthw.asia/blog/2938068.sHtMl
+
+四、架构设计｜Architecture
+原标题：方案设计：分布式分页查询架构难点处理
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://wap.herthw.asia/blog/6150392.sHtMl
+
+原标题：golang docker compose 本地开发最佳实践
+简介：golang 故障演练服务模拟超时报错，程序模拟接口超时、报错，做混沌测试验证熔断降级有效性。
+ | 原文链接：http://wap.herthw.asia/blog/5494625.sHtMl
+
+原标题：部署实践：多实例服务部署无状态改造
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：http://wap.herthw.asia/blog/2935614.sHtMl
+
+原标题：golang 系统设计版本号语义化规范讲解
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：http://wap.herthw.asia/blog/0717947.sHtMl
+
+原标题：golang 系统设计分表字段选择路由规则设计
+简介：golang gif 图片帧处理操作，解析 gif 图片帧，压缩、拆分 gif 动图，处理动图业务。
+ | 原文链接：http://wap.herthw.asia/blog/0695847.sHtMl
+
+原标题：新手指南：如何读懂开源项目报错日志
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：http://wap.herthw.asia/blog/1525058.sHtMl
+
+原标题：golang 系统设计 pr 评审合并完整流程
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：http://wap.herthw.asia/blog/9616958.sHtMl
+
+原标题：golang 分库分表简单路由实现
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：http://wap.herthw.asia/blog/2934149.sHtMl
+
+原标题：开发记录：容器日志标准输出采集实践方案
+简介：golang 漏桶算法实现接口限流，漏桶算法控制请求流出速率，平滑突发流量，削平流量峰值。
+ | 原文链接：http://wap.herthw.asia/blog/8506958.sHtMl
+
+原标题：Hands‑on：简易反向代理中间件实现
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：http://wap.herthw.asia/blog/7483926.sHtMl
+
+原标题：golang docker 部署 mongodb 开发环境
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：http://wap.herthw.asia/blog/4172524.sHtMl
+
+原标题：开发记录：实现完整用户登录鉴权业务模块
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：http://wap.herthw.asia/blog/5379686.sHtMl
+
+原标题：golang 系统设计定时任务分布式锁
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：http://wap.herthw.asia/blog/4489257.sHtMl
+
+原标题：数值 key 浮点匹配异常规避
+简介：golang 静态文件服务搭建教程，Go 搭建静态文件服务，托管静态资源，实现文件直接对外访问。
+ | 原文链接：http://wap.herthw.asia/blog/2024703.sHtMl
+
+原标题：开发代理服务网络限制解决
+简介：golang gorm 批量插入性能调优，GORM 批量插入优化，调整批次大小，提升大量数据插入数据库速度。
+ | 原文链接：http://wap.herthw.asia/blog/8260488.sHtMl
+
+原标题：性能笔记：连接池参数调优数据库RPC连接池
+简介：golang go 爬虫异步并发抓取，协程池控制并发抓取网页，多协程采集，提升爬虫采集速度。
+ | 原文链接：http://wap.herthw.asia/blog/1827140.sHtMl
+
+原标题：对象存储上传下载权限实操
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://wap.herthw.asia/blog/1593858.sHtMl
+
+原标题：golang docker 基础命令实操汇总
+简介：golang 微服务网关简易实现，http 反向代理、路由匹配、鉴权限流，理解网关核心原理。
+ | 原文链接：http://wap.herthw.asia/blog/6080584.sHtMl
+
+?
